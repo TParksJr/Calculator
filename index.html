@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Calculator</title>
+    <meta name="description" content="Tyson's API Assignment">
+    <meta name="keywords" content="calculator,jquery,University,Toronto,bootcamp">
+    <meta name="author" content="Tyson Parkin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Language" content="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron">
+        <h1 class="text-center">jQuery Calculator</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card">
+                    <h3 class="card-header">Calculator</h3>
+
+                    <div class="card-body">
+                        <button id="button-1" class="btn btn-primary number" value="1">
+                            <h2>1</h2>
+                        </button>
+                        <button id="button-2" class="btn btn-primary number" value="2">
+                            <h2>2</h2>
+                        </button>
+                        <button id="button-3" class="btn btn-primary number" value="3">
+                            <h2>3</h2>
+                        </button>
+                        <button id="button-plus" class="btn btn-danger operator" value="plus">
+                            <h2>+</h2>
+                        </button>
+                        <br>
+                        <br>
+                        <button id="button-4" class="btn btn-primary number" value="4">
+                            <h2>4</h2>
+                        </button>
+                        <button id="button-5" class="btn btn-primary number" value="5">
+                            <h2>5</h2>
+                        </button>
+                        <button id="button-6" class="btn btn-primary number" value="6">
+                            <h2>6</h2>
+                        </button>
+                        <button id="button-minus" class="btn btn-danger operator" value="minus">
+                            <h2>&minus;</h2>
+                        </button>
+                        <br>
+                        <br>
+                        <button id="button-7" class="btn btn-primary number" value="7">
+                            <h2>7</h2>
+                        </button>
+                        <button id="button-8" class="btn btn-primary number" value="8">
+                            <h2>8</h2>
+                        </button>
+                        <button id="button-9" class="btn btn-primary number" value="9">
+                            <h2>9</h2>
+                        </button>
+                        <button id="button-multiply" class="btn btn-danger operator" value="times">
+                            <h2>&times;</h2>
+                        </button>
+                        <br>
+                        <br>
+                        <button id="button-0" class="btn btn-primary number" value="0">
+                            <h2>0</h2>
+                        </button>
+                        <button id="button-divide" class="btn btn-danger operator" value="divide">
+                            <h2>&divide;</h2>
+                        </button>
+                        <button id="button-power" class="btn btn-danger operator" value="power">
+                            <h2>^</h2>
+                        </button>
+                        <button id="button-equal" class="btn btn-success equal" value="equals">
+                            <h2>=</h2>
+                        </button>
+                        <br>
+                        <br>
+                        <button id="button-clear" class="btn btn-dark clear" value="clear">
+                            <h2>clear</h2>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <h3 class="card-header">Result</h3>
+                    <div class="card-body">
+                        <h2 id="first-number"></h2>
+                        <h2 id="operator"></h2>
+                        <h2 id="second-number"></h2>
+                        <hr>
+                        <h2 id="result"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/calculator.js"></script>
+</body>
+
+</html>
